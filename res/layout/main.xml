@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+			<Button android:text="启动服务" 
+								android:id="@+id/btnStart"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+			 />
+			 
+			<Button android:text="停止服务" 
+								android:id="@+id/btnStop"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+			 />
+			 
+			<Button android:text="获取服务状态" 
+								android:id="@+id/btnState"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+			 />
+
+			<Button
+			    android:id="@+id/btnGetTfInfo"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="获取TF信息" />
+
+			<Button
+			    android:id="@+id/btnGetDevSuitInfo"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:text="获取三卡信息" />
+			 
+			<Button android:text="检测运营商网络连通" 
+								android:id="@+id/btnCheckLinkState"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+			 />
+			 
+			<Button android:text="退出" 
+								android:id="@+id/btnQuit"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+			 />
+			<ScrollView android:layout_width="fill_parent"
+											android:layout_height="fill_parent"
+											android:id="@+id/sclView"	>
+								<TextView android:id="@+id/txtLog"
+														android:layout_width="fill_parent"
+														android:layout_height="fill_parent"
+														android:textSize="14sp">
+								</TextView>
+			</ScrollView>
+	
+</LinearLayout>

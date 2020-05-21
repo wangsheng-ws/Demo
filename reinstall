@@ -1,0 +1,2 @@
+adb uninstall com.Demo
+adb install bin/ClientActivity-release.apk
